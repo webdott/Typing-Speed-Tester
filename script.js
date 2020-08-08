@@ -123,7 +123,7 @@ const reset = () => {
 }
 
 // Event listeners for keyboard input and the reset button:
-testArea.addEventListener('keypress', start, false);
+testArea.addEventListener('keydown', start, false);
 testArea.addEventListener('keyup', checkText, false);
 nextButton.addEventListener('click', goToNext, false);
 previousButton.addEventListener('click', goToPrevious, false);
