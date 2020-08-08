@@ -176,7 +176,7 @@ body {
 #next,
 #previous,
 #reset {
-    width: 15em;
+    width: 100vw;
     padding: .5em .5em;
     margin-top: 1em;
     font-size: 1em;
