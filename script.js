@@ -83,11 +83,11 @@ const runTimer = () => {
 const checkText = () => {
     let textCheck = testArea.value;
     if (textCheck == originText.innerHTML) {
-       testWrapper.style.borderColor = '#B4DB24';
+       testWrapper.style.borderColor = 'green';
         stop();
     } else {
         if (originText.innerHTML.includes(textCheck)) {
-            testWrapper.style.borderColor = 'green';
+            testWrapper.style.borderColor = 'rgba(0, 255, 0, 0.5)';
         } else {
             testWrapper.style.borderColor = 'red';
         }
@@ -119,7 +119,7 @@ const reset = () => {
     testArea.value = ``;
     theTimer.innerHTML = `00:00:00`;
     timerRuning = false;
-    testWrapper.style.borderColor = `grey`;
+    testWrapper.style.borderColor = '#B4DB24';
 }
 
 // Event listeners for keyboard input and the reset button:
