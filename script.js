@@ -83,13 +83,13 @@ const runTimer = () => {
 const checkText = () => {
     let textCheck = testArea.value;
     if (textCheck == originText.innerHTML) {
-       testWrapper.style.borderColor = '#429890';
+       testWrapper.style.borderColor = '#B4DB24';
         stop();
     } else {
         if (originText.innerHTML.includes(textCheck)) {
-            testWrapper.style.borderColor = '#65ccf3';
+            testWrapper.style.borderColor = 'green';
         } else {
-            testWrapper.style.borderColor = '#E95D0F';
+            testWrapper.style.borderColor = 'red';
         }
     }
 }
