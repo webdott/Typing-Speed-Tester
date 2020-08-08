@@ -181,7 +181,7 @@ body {
     margin-top: 1em;
     font-size: 1em;
     font-weight: bold;
-    color: #E95D0F;
+    color: #9d45f2;
     background: white ;
     border: 10px solid #9d45f2;
 }
@@ -191,7 +191,7 @@ body {
 #reset:hover {
     cursor: pointer;
     color: white;
-    background-color: #E95D0F;
+    background-color: #9d45f2;
 }
 
 
